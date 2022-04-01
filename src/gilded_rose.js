@@ -29,7 +29,7 @@ class Shop {
               this.incresseQualityWhenQualityIsLessThen50(i);
             }
             if (this.items[i].sellIn < 6) {
-              incresseQualityWhenQualityIsLessThen50(i);
+              this.incresseQualityWhenQualityIsLessThen50(i);
             }
           }
         }
@@ -51,7 +51,7 @@ class Shop {
               this.items[i].quality - this.items[i].quality;
           }
         } else {
-          incresseQualityWhenQualityIsLessThen50(i);
+          this.incresseQualityWhenQualityIsLessThen50(i);
         }
       }
     }
